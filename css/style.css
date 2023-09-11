@@ -1,0 +1,58 @@
+* {padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	width:50%;
+	margin:auto;
+}
+.sticky{
+	height:100px;
+	background-color:green;
+	position:sticky;
+	top:0;
+}
+.parent{
+	border:5px solid black;
+	position:relative;
+}
+.relative{
+	height:100px;
+	background-color:red;
+	position:relative;
+	/*top:10px;*/
+	/*left:10%;*/
+}
+.absolute{
+	height:100px;
+	background-color:yellow;
+	position:absolute;
+	bottom:20%;
+	right:0;
+}
+.fixed{
+	height:100px;
+	background-color:blue;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.bike{
+	position:relative;
+}
+.bike img{
+	width:100%;
+}
+.bike h1{
+	background-color:white;
+	width:50%;
+	padding:10px;
+	text-align:center;
+	
+	
+	position:absolute;
+	bottom:20%;
+	left:25%;
+}
+
+
